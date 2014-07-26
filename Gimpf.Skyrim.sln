@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Gimpf.SkyrimAlchemy.Calculator", "Gimpf.Skyirm.AlchemyCalculator\Gimpf.SkyrimAlchemy.Calculator.fsproj", "{30CE1215-4111-43B0-8167-D0E74315BF18}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Gimpf.SkyrimAlchemy.Calculator", "Gimpf.Skyrim.AlchemyCalculator\Gimpf.SkyrimAlchemy.Calculator.fsproj", "{30CE1215-4111-43B0-8167-D0E74315BF18}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Gimpf.FSharpExtensions", "Gimpf.FSharpExtensions\Gimpf.FSharpExtensions.fsproj", "{788F7080-8C4A-423E-8879-734895A5783A}"
 EndProject
