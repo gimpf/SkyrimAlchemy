@@ -1,0 +1,45 @@
+// Restore - Damage
+// Fortify - Ravage
+// Resist  - Weakness to
+// Regenerate - Damage ... Regeneration
+
+40.00 , preferUnknown
+// 10.00 , preferPure
+10.00, avoidInpure
+
+7.00 , preferEffect, Restore Health
+7.00 , preferEffect, Restore Magicka
+// 1.00 , preferEffect, Regenerate Health
+// 1.00 , preferEffect, Regenerate Magicka
+// 0.50 , preferEffect, Fortify Health
+// 0.50 , preferEffect, Fortify Magicka
+
+// 1.00 , preferEffect, Fortify Destruction
+// 0.50 , preferEffect, Fortify Conjuration
+// 0.10 , preferEffect, Fortify Illusion
+// 0.10 , preferEffect, Fortify Alteration
+
+0.50 , preferEffect, Fortify Light Armor
+// 0.10 , preferEffect, Fortify One Handed
+
+// 0.50 , preferEffect, Resist Fire
+// 0.50 , preferEffect, Resist Frost
+// 0.50 , preferEffect, Resist Magic
+
+// 0.10 , preferEffect, Invisibility
+// 1.00 , preferEffect, Slow
+// 1.50 , preferEffect, Paralysis
+// 0.02 , preferEffect, Frenzy
+// 0.02 , preferEffect, Fear
+
+// 0.10 , preferEffect, Damage Magicka Regen
+// 0.10 , preferEffect, Damaga Stamina
+// 0.10 , preferEffect, Damage Stamina Regen
+
+// 0.50 , avoidEffect, Fortify Two-Handed
+// 0.50 , avoidEffect, Fortify Heavy Armor
+// 0.50 , avoidEffect, Fortify Pickpocket
+// 1.00 , avoidEffect, Fortify Lickpicking
+// 0.50 , avoidEffect, Fortify Sneak
+// 0.50 , avoidEffect, Fortify Carry Weight
+// 1.00 , avoidEffect, Fortify Barter

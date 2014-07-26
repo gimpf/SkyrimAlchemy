@@ -1,0 +1,55 @@
+Cure Disease;0.500000;5.000000;0.000000;false;true;Potion Other
+Damage Health;3.000000;2.000000;1.000000;false;true;Poison
+Damage Magicka;2.200000;3.000000;0.000000;false;true;Poison
+Damage Magicka Regen;0.500000;100.000000;5.000000;true;true;Poison
+Damage Stamina;1.800000;3.000000;0.000000;false;true;Poison
+Damage Stamina Regen;0.300000;100.000000;5.000000;true;true;Poison
+Fear;5.000000;1.000000;30.000000;false;true;Poison
+Fortify Alteration;0.200000;4.000000;60.000000;false;true;Potion Other
+Fortify Barter;2.000000;1.000000;30.000000;false;true;Potion Other
+Fortify Block;0.500000;4.000000;60.000000;false;true;Potion Other
+Fortify Carry Weight;0.150000;4.000000;300.000000;false;true;Potion Other
+Fortify Conjuration;0.250000;5.000000;60.000000;false;true;Potion Other
+Fortify Destruction;0.500000;5.000000;60.000000;false;true;Potion Other
+Fortify Enchanting;0.600000;1.000000;30.000000;false;true;Potion Other
+Fortify Health;0.350000;4.000000;60.000000;false;true;Potion Other
+Fortify Heavy Armor;0.500000;2.000000;60.000000;false;true;Potion Other
+Fortify Illusion;0.400000;4.000000;60.000000;false;true;Potion Other
+Fortify Light Armor;0.500000;2.000000;60.000000;false;true;Potion Other
+Fortify Lockpicking;0.500000;2.000000;30.000000;false;true;Potion Other
+Fortify Magicka;0.300000;4.000000;60.000000;false;true;Potion Other
+Fortify Marksman;0.500000;4.000000;60.000000;false;true;Potion Other
+Fortify One-Handed;0.500000;4.000000;60.000000;false;true;Potion Other
+Fortify Pickpocket;0.500000;4.000000;60.000000;false;true;Potion Other
+Fortify Restoration;0.500000;4.000000;60.000000;false;true;Potion Other
+Fortify Smithing;0.750000;4.000000;30.000000;false;true;Potion Other
+Fortify Sneak;0.500000;4.000000;60.000000;false;true;Potion Other
+Fortify Stamina;0.300000;4.000000;60.000000;false;true;Potion Other
+Fortify Two-handed;0.500000;4.000000;60.000000;false;true;Potion Other
+Frenzy;15.000000;1.000000;10.000000;false;true;Poison
+Invisibility;100.000000;0.000000;4.000000;true;false;Potion Other
+Lingering Damage Health;12.000000;1.000000;10.000000;false;true;Poison
+Lingering Damage Magicka;10.000000;1.000000;10.000000;false;true;Poison
+Lingering Damage Stamina;1.800000;1.000000;10.000000;false;true;Poison
+Paralysis;500.000000;0.000000;1.000000;true;false;Poison
+Ravage Health;0.400000;2.000000;10.000000;false;true;Poison
+Ravage Magicka;1.000000;2.000000;10.000000;false;true;Poison
+Ravage Stamina;1.600000;2.000000;10.000000;false;true;Poison
+Regenerate Health;0.100000;5.000000;300.000000;false;true;Potion Other
+Regenerate Magicka;0.100000;5.000000;300.000000;false;true;Potion Other
+Regenerate Stamina;0.100000;5.000000;300.000000;false;true;Potion Other
+Resist Fire;0.500000;3.000000;60.000000;false;true;Poison
+Resist Frost;0.500000;3.000000;60.000000;false;true;Poison
+Resist Magic;1.000000;1.000000;60.000000;false;true;Poison
+Resist Poison;0.500000;4.000000;60.000000;false;true;Poison
+Resist Shock;0.500000;3.000000;60.000000;false;true;Poison
+Restore Health;0.500000;5.000000;0.000000;false;true;Potion RestoreEnergy
+Restore Magicka;0.600000;5.000000;0.000000;false;true;Potion RestoreEnergy
+Restore Stamina;0.600000;5.000000;0.000000;false;true;Potion RestoreEnergy
+Slow;1.000000;50.000000;5.000000;true;true;Poison
+Waterbreathing;30.000000;0.000000;5.000000;true;true;Potion Other
+Weakness to Fire;0.600000;3.000000;30.000000;false;true;Poison
+Weakness to Frost;0.500000;3.000000;30.000000;false;true;Poison
+Weakness to Magic;1.000000;2.000000;30.000000;false;true;Poison
+Weakness to Poison;1.000000;2.000000;30.000000;false;true;Poison
+Weakness to Shock;0.700000;3.000000;30.000000;false;true;Poison

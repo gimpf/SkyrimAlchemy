@@ -1,0 +1,1022 @@
+! from http://elderscrolls.wikia.com/wiki/Ingredients_%28Skyrim%29
+! should be checked against http://www.uesp.net/wiki/Skyrim:Ingredients
+! Ingredient
+! Primary Effect
+! Secondary Effect
+! Tertiary Effect
+! Quaternary Effect
+! Weight {{W}}
+! Value {{G}}
+! Obtained
+|-
+| [[Abecean Longfin]]
+| Weakness to Frost
+| Fortify Sneak
+| Weakness to Poison
+| Fortify Restoration
+| 0.5
+| 15
+| Lakes, rivers, streams, fish barrels
+|-  
+| [[Ancestor Moth Wing]]*
+| Damage Stamina
+| Fortify Conjuration
+| Damage Magicka Regen
+| Fortify Enchanting
+| 0.1
+| 2
+| [[Ancestor Glade]]
+|-
+|[[Ash Creep Cluster]]‡
+|Damage Stamina
+|Invisibility
+|Resist Fire
+|Fortify Destruction
+|0.3
+|20
+|Harvested from ash covered areas of [[Solstheim]]
+|-
+|[[Ash Hopper Jelly]]‡
+|
+Restore Health
+|Fortify Light Armor
+|Resist Shock
+|Weakness to Frost
+|0.3
+|20
+|[[Ash Hopper ]]Corpses
+|-
+|[[Ashen Grass Pod]]‡
+|Resist Fire
+|Weakness to Shock
+|Fortify Lockpicking
+|Fortify Sneak
+|0.1
+|1
+|Harvested from ash covered areas of [[Solstheim]]
+|-
+|[[Bear Claws]]
+|Restore Stamina
+|Fortify Health
+|Fortify One-Handed
+|Damage Magicka Regen
+|0.1
+|2
+|[[Bear (Skyrim)|Bears]]
+|-
+|[[Bee]]
+|Restore Stamina
+|Ravage Stamina
+|Regenerate Stamina
+|Weakness to Shock
+|0.1
+|3
+|[[Beehive]]
+|-
+|[[Beehive Husk]]
+|Resist Poison
+|Fortify Light Armor
+|Fortify Sneak
+|Fortify Destruction
+|1
+|5
+|[[Beehive]]
+|-
+|[[Berit's Ashes]]
+''(Identical to [[Bone Meal]])''
+|Damage Stamina
+|Resist Fire
+|Fortify Conjuration
+|Ravage Stamina
+|0.5
+|5
+|Quest item given by [[Thadgeir]]
+|-
+|[[Bleeding Crown]]
+|Weakness to Fire
+|Fortify Block
+|Weakness to Poison
+|Resist Magic
+|0.3
+|10
+|Mushroom clusters
+|-
+|[[Blisterwort]]
+|Damage Stamina
+|Frenzy
+|Restore Health
+|Fortify Smithing
+|0.2
+|12
+|Caves and dark areas
+|-
+|[[Blue Butterfly Wing]]
+|Damage Stamina
+|Fortify Conjuration
+|Damage Magicka Regen
+|Fortify Enchanting
+|0.1
+|2
+|[[Blue Butterfly]]
+|-
+|[[Blue Dartwing]]
+|Resist Shock
+|Fortify Pickpocket
+|Restore Health
+|Fear
+|0.1
+|1
+|Hovering above water
+|-
+|[[Blue Mountain Flower]]
+|Restore Health
+|Fortify Conjuration
+|Fortify Health
+|Damage Magicka Regen
+|0.1
+|2
+|Mountain flower clumps
+|-
+|[[Boar Tusk]]‡
+|Fortify Stamina
+|Fortify Health
+|Fortify Block
+|Frenzy
+|0.5
+|20
+|[[Tusked Bristleback (Dragonborn)|Tusked Bristlebacks]]
+|-
+|
+[[Bone Meal]]
+|Damage Stamina
+|Resist Fire
+|Fortify Conjuration
+|Ravage Stamina
+|0.5
+|5
+|[[Draugr (Skyrim)|Draugr]] and skeletons
+|-
+|[[Briar Heart]]
+|Restore Magicka
+|Fortify Block
+|Paralysis
+|Fortify Magicka
+|0.5
+|20
+|[[Forsworn]] Leaders
+|-
+|[[Burnt Spriggan Wood]]‡
+|Weakness to Fire
+|Fortify Alteration
+|Damage Magicka Regen
+|Slow
+|0.5
+|20
+|[[Burnt Spriggan|Burnt Spriggans]]
+|-
+|[[Butterfly Wing]]
+|
+Restore Health
+|Fortify Barter
+|Lingering Damage Stamina
+|Damage Magicka
+|0.1
+|3
+|[[Monarch Butterfly]]
+|-
+|[[Canis Root]]
+|Damage Stamina
+|Fortify One-Handed
+|Fortify Marksman
+|Paralysis
+|0.1
+|5
+|Near rocky areas
+|-
+|[[Charred Skeever Hide]]
+|Restore Stamina
+|Cure Disease
+|Resist Poison
+|Restore Health
+|0.5
+|1
+|Found at campfires
+|-
+|[[Chaurus Eggs]]
+|Weakness to Poison
+|Fortify Stamina
+|Damage Magicka
+|Invisibility
+|0.2
+|10
+|[[Falmer]] caves
+|-
+|[[Chaurus Hunter Antennae]]*
+|Damage Stamina
+|Fortify Conjuration
+|Damage Magicka Regen
+|Fortify Enchanting
+|0.1
+|2
+|
+[[Chaurus Hunter]] [[Chaurus Hunter Fledgling]]
+|-
+|[[Chicken's Egg]]
+|Resist Magic
+|Damage Magicka Regen
+|Waterbreathing
+|Lingering Damage Stamina
+|0.5
+|2
+|Chicken's Nest
+|-
+|[[Creep Cluster]]
+|Restore Magicka
+|Damage Stamina Regen
+|Fortify Carry Weight
+|Weakness to Magic
+|0.2
+|1
+|Hydro-thermal areas
+|-
+|[[Crimson Nirnroot]]
+|Damage Health
+|Damage Stamina
+|Invisibility
+|Resist Magic
+|0.2
+|10
+|[[Blackreach]]
+|-
+|[[Cyrodilic Spadetail]]
+|Damage Stamina
+|Fortify Restoration
+|Fear
+|Ravage Health
+|0.3
+|15
+|Lakes, rivers, streams, fish barrels
+|-
+|[[Daedra Heart (Skyrim)|Daedra Heart]]
+|Restore Health
+|Damage Stamina Regen
+|Damage Magicka
+|Fear
+|0.5
+|250
+|[[Daedra]]
+|-
+|[[Deathbell]]
+|Damage Health
+|Ravage Stamina
+|Slow
+|Weakness to Poison
+|0.1
+|4
+|Wild, on planters
+|-
+|[[Dragon's Tongue (Skyrim)|Dragon's Tongue]]
+|Resist Fire
+|Fortify Barter
+|Fortify Illusion
+|Fortify Two-handed
+|0.1
+|5
+|Hydro-thermal areas
+|-
+|[[Dwarven Oil]]
+|Weakness to Magic
+|Fortify Illusion
+|Regenerate Magicka
+|Restore Magicka
+|0.3
+|15
+|[[Dwemer Ruins]]
+|-
+|[[Ectoplasm (Skyrim)|Ectoplasm]]
+|Restore Magicka
+|Fortify Destruction
+|Fortify Magicka
+|Damage Health
+|0.1
+|25
+|Ghostlike creatures
+|-
+|[[Elves Ear]]
+|Restore Magicka
+|Fortify Marksman
+|Weakness to Frost
+|Resist Fire
+|0.1
+|10
+|Plant, hanging herbs
+|-
+|
+[[Emperor Parasol Moss]]‡
+|Damage Health
+|Fortify Magicka
+|Regenerate Health
+|Fortify Two-Handed
+|0.3
+|1
+|Hanging from [[Emperor Parasol]] around [[Tel Mithryn]].
+|-
+|[[Eye of Sabre Cat]]
+|Restore Stamina
+|Ravage Health
+|Damage Magicka
+|Restore Health
+|0.1
+|2
+|
+[[Sabre Cat]],[[Snowy Sabre Cat]]
+|-
+|[[Falmer Ear]]
+|Damage Health
+|Frenzy
+|Resist Poison
+|Fortify Lockpicking
+|0.2
+|10
+|[[Falmer (Skyrim)|Falmer]]
+|-
+|[[Felsaad Tern Feathers]]‡
+|Restore Health
+|Fortify Light Armor
+|Cure Disease
+|Resist Magic
+|0.1
+|15
+|[[Felsaad Tern]]
+|-
+|[[Fire Salts (Skyrim)|Fire Salts]]
+|Weakness to Frost
+|Resist Fire
+|Restore Magicka
+|Regenerate Magicka
+|0.3
+|50
+|[[Flame Atronach (Skyrim)|Flame Atronach]]
+|-
+|[[Fly Amanita (Skyrim)|Fly Amanita]]
+|Resist Fire
+|Fortify Two-handed
+|Frenzy
+|Regenerate Stamina
+|0.1
+|2
+|Mushroom clusters in and around caves
+|-
+|[[Frost Mirriam]]
+|Resist Frost
+|Fortify Sneak
+|Ravage Magicka
+|Damage Stamina Regen
+|0.1
+|1
+|Hanging in homes, businesses and giant camps
+|-
+|[[Frost Salts (Skyrim)|Frost Salts]]
+|Weakness to Fire
+|Resist Frost
+|Restore Magicka
+|Fortify Conjuration
+|0.3
+|100
+|[[Frost Atronach (Skyrim)|Frost Atronach]]
+|-
+|[[Garlic (Skyrim)|Garlic]]
+|Resist Poison
+|Fortify Stamina
+|Regenerate Magicka
+|Regenerate Health
+|0.3
+|1
+|Hanging in homes, businesses and cooking areas
+|-
+|[[Giant Lichen]]
+|Weakness to Shock
+|Ravage Health
+|Weakness to Poison
+|Restore Magicka
+|0.3
+|5
+|Swamps
+|-
+|[[Giant's Toe]]
+|Damage Stamina
+|Fortify Health
+|Fortify Carry Weight
+|Damage Stamina Regen
+|1
+|20
+|[[Giant]]s
+|-
+|[[Gleamblossom]]*
+|Resist Magic
+|Fear
+|Regenerate Health
+|Paralysis
+|0.1
+|5
+|
+Harvested in [[Darkfall Cave]], [[Forgotten Vale]]
+|-
+|[[Glow Dust (Skyrim)|Glow Dust]]
+|Damage Magicka
+|Damage Magicka Regen
+|Fortify Destruction
+|Resist Shock
+|0.5
+|20
+|[[Wispmother (Skyrim)|Wispmother]]
+|-
+|[[Glowing Mushroom]]
+|Resist Shock
+|Fortify Destruction
+|Fortify Smithing
+|Fortify Health
+|0.2
+|5
+|Caves, [[Dwemer Ruins]]
+|-
+|
+[[Grass Pod]]
+|Resist Poison
+|Ravage Magicka
+|Fortify Alteration
+|Restore Magicka
+|0.1
+|1
+|Tundras
+|-
+|[[Hagraven Claw]]
+|Resist Magic
+|Lingering Damage Magicka
+|Fortify Enchanting
+|Fortify Barter
+|0.3
+|20
+|[[Hagraven (Skyrim)|Hagraven]]
+|-
+|[[Hagraven Feathers]]
+|Damage Magicka
+|Fortify Conjuration
+|Frenzy
+|Weakness to Shock
+|0.1
+|20
+|[[Hagraven (Skyrim)|Hagraven]]
+|-
+|[[Hanging Moss]]
+|Damage Magicka
+|Fortify Health
+|Damage Magicka Regen
+|Fortify One-Handed
+|0.3
+|1
+|Vegetated areas, hanging in caves, from buildings
+|-
+|[[Hawk Beak]]
+|Restore Stamina
+|Resist Frost
+|Fortify Carry Weight
+|Resist Shock
+|0.3
+|15
+|Hawks
+|-
+|[[Hawk Feathers]]
+|Cure Disease
+|Fortify Light Armor
+|Fortify One-Handed
+|Fortify Sneak
+|0.1
+|15
+|Hawks
+|-
+|[[Hawk's Egg]]†
+|Resist Magic
+|Damage Magicka Regen
+|Waterbreathing
+|Lingering Damage Stamina
+|0.5
+|2
+|Hawk's Nest
+|-
+|[[Histcarp  (Skyrim)|Histcarp]]
+|Restore Stamina
+|Fortify Magicka
+|Damage Stamina Regen
+|Waterbreathing
+|0.3
+|6
+|Lakes, rivers, streams and fish barrels
+|-
+|[[Honeycomb]]
+|Restore Stamina
+|Fortify Block
+|Fortify Light Armor
+|Ravage Stamina
+|1
+|5
+|[[Beehive]]
+|-
+|[[Human Flesh (Skyrim)|Human Flesh]]
+|Damage Health
+|Paralysis
+|Restore Magicka
+|Fortify Sneak
+|0.3
+|1
+|[[Falmer]] [[Vampire (Skyrim)|Vampire]] dens
+|-
+|[[Human Heart (Skyrim)|Human Heart]]
+|Damage Health
+|Damage Magicka
+|Damage Magicka Regen
+|Frenzy
+|1
+|0
+|[[Falmer]] [[Vampire (Skyrim)|Vampire]] dens
+|-
+|[[Ice Wraith Teeth]]
+|Weakness to Frost
+|Fortify Heavy Armor
+|Invisibility
+|Weakness to Fire
+|0.3
+|30
+|[[Ice Wraith]]
+|-
+|[[Imp Stool]]
+|Damage Health
+|Lingering Damage Health
+|Paralysis
+|Restore Health
+|0.3
+|0
+|Mushroom clusters near caves or dungeons
+|-
+|[[Jarrin Root]]
+|Damage Health
+|Damage Magicka
+|Damage Stamina
+|Damage Magicka Regen
+|0.5
+|10
+|[[Dark Brotherhood]] Quest
+|-
+|[[Jazbay Grapes]]
+|Weakness to Magic
+|Fortify Magicka
+|Regenerate Magicka
+|Ravage Health
+|0.2
+|1
+|Hydro-thermal regions
+|-
+|[[Juniper Berries]]
+|Weakness to Fire
+|Fortify Marksman
+|Regenerate Health
+|Damage Stamina Regen
+|0.1
+|1
+|Juniper Trees
+|-
+|[[Large Antlers]]
+|Restore Stamina
+|Fortify Stamina
+|Slow
+|Damage Stamina Regen
+|0.1
+|2
+|[[Deer (Skyrim)|Deer]], [[Elk]]
+|-
+|[[Lavender (Skyrim)|Lavender]]
+|Resist Magic
+|Fortify Stamina
+|Ravage Magicka
+|Fortify Conjuration
+|0.1
+|1
+|Outdoors in clumps
+|-
+|[[Luna Moth Wing]]
+|Damage Magicka
+|Fortify Light Armor
+|Regenerate Health
+|Invisibility
+|0.1
+|5
+|[[Luna Moth]]
+|-
+|[[Moon Sugar (Skyrim)|Moon Sugar]]
+|Weakness to Fire
+|Resist Frost
+|Restore Magicka
+|Regenerate Magicka
+|0.3
+|50
+|[[Khajiit Caravans]]
+|-
+|[[Mora Tapinella]]
+|Restore Magicka
+|Lingering Damage Health
+|Regenerate Stamina
+|Fortify Illusion
+|0.3
+|4
+|Dead Trees
+|-
+|[[Mudcrab Chitin]]
+|Restore Stamina
+|Cure Disease
+|Resist Poison
+|Resist Fire
+|0.3
+|2
+|[[Mud Crab|Mudcrabs]]
+|-
+|[[Namira's Rot]]
+|Damage Magicka
+|Fortify Lockpicking
+|Fear
+|Regenerate Health
+|0.3
+|0
+|Caves
+|-
+|[[Netch Jelly]]‡
+|Paralysis
+|Fortify Carry Weight
+|Restore Stamina
+|Fear
+|0.5
+|20
+|[[Netch]]
+|-
+| [[Nightshade (Skyrim)|Nightshade]]
+|Damage Health
+|Damage Magicka Regen
+|Lingering Damage Stamina
+|Fortify Destruction
+|0.1
+|8
+|Graveyards, undead areas
+|-
+| [[Nirnroot (Skyrim)|Nirnroot]]
+|Damage Health
+|Damage Stamina
+|Invisibility
+|Resist Magic
+|0.2
+|10
+|Near water
+|-
+| [[Nordic Barnacle]]
+|Damage Magicka
+|Waterbreathing
+|Regenerate Health
+|Fortify Pickpocket
+|0.2
+|5
+|Underwater
+|-
+| [[Orange Dartwing]]
+|Restore Stamina
+|Ravage Magicka
+|Fortify Pickpocket
+|Lingering Damage Health
+|0.1
+|1
+|Hovering above water
+|-
+| [[Pearl (Skyrim)|Pearl]]
+|
+Restore Stamina
+|Fortify Block
+|Restore Magicka
+|Resist Shock
+|0.1
+|2
+|
+Satchels; [[Alchemy Laboratory]] of a [[Homestead]]† [[Pearl Oyster]]‡
+|-
+| [[Pine Thrush Egg]]
+|Restore Stamina
+|Fortify Lockpicking
+|Weakness to Poison
+|Resist Shock
+|0.5
+|2
+|Nests in forests
+|-
+| [[Poison Bloom]]*
+|Damage Health
+|Slow
+|Fortify Carry Weight
+|Fear
+|0.3
+|5
+|[[Darkfall Cave]]
+|-
+| [[Powdered Mammoth Tusk]]
+|Restore Stamina
+|Fortify Sneak
+|Weakness to Fire
+|Fear
+|0.1
+|2
+|
+[[Giant Camps]], [[Alchemy Laboratory]] of a [[Homestead]]†
+|-
+| [[Purple Mountain Flower]]
+|Restore Stamina
+|Fortify Sneak
+|Lingering Damage Magicka
+|Resist Frost
+|0.1
+|2
+|Mountain flower clumps
+|-
+| [[Red Mountain Flower]]
+|Restore Magicka
+|Ravage Magicka
+|Fortify Magicka
+|Damage Health
+|0.1
+|2
+|Mountain flower clumps
+|-
+| [[River Betty]]
+|Damage Health
+|Fortify Alteration
+|Slow
+|Fortify Carry Weight
+|0.3
+|15
+|Lakes, rivers, streams and fish barrels
+|-
+| [[Rock Warbler Egg]]
+|Restore Health
+|Fortify One-Handed
+|Damage Stamina
+|Weakness to Magic
+|0.5
+|2
+|Rock Warbler Nest
+|-
+| [[Sabre Cat Tooth]]
+|Restore Stamina
+|Fortify Heavy Armor
+|Fortify Smithing
+|Weakness to Poison
+|0.1
+|2
+| [[Sabre Cat]],[[Frost Sabre Cat]]
+|-
+| [[Salmon Roe]]†
+|Restore Stamina
+|Waterbreathing
+|Fortify Magicka
+|Regenerate Magicka
+|0.2
+|5
+|Salmon jumping up falls, [[Kitchen]] of a [[Homestead]]†
+|-
+| [[Salt Pile]]
+|Weakness to Magic
+|Fortify Restoration
+|Slow
+|Regenerate Magicka
+|0.2
+|2
+|Merchants, containers, near [[Cooking Place|cooking places]]
+|-
+| [[Scaly Pholiota]]
+|Weakness to Magic
+|Fortify Illusion
+|
+Regenerate Stamina
+|Fortify Carry Weight
+|0.3
+|4
+|Dead birch trees
+|-
+| [[Scathecraw (Dragonborn)|Scathecraw]]‡
+|Ravage Health
+|Ravage Stamina
+|Ravage Magicka
+|Lingering Damage Health
+|0.1
+|1
+|Harvested all over [[Solstheim]]
+|-
+| [[Silverside Perch]]
+|Restore Stamina
+|Damage Stamina Regen
+|Ravage Health
+|Resist Frost
+|0.3
+|15
+|Lakes, rivers, streams and fish barrels
+|-
+| [[Skeever Tail]]
+|Damage Stamina Regen
+|Ravage Health
+|Damage Health
+|Fortify Light Armor
+|0.2
+|3
+| [[Skeever (Skyrim)|Skeever]]
+|-
+| [[Slaughterfish Egg]]
+|Resist Poison
+|Fortify Pickpocket
+|Lingering Damage Health
+|Fortify Stamina
+|0.2
+|3
+|Underwater
+|-
+| [[Slaughterfish Scales]]
+|Resist Frost
+|Lingering Damage Health
+|Fortify Heavy Armor
+|Fortify Block
+|0.1
+|3
+| [[Slaughterfish]]
+|-
+| [[Small Antlers]]
+|Weakness to Poison
+|Fortify Restoration
+|Lingering Damage Stamina
+|Damage Health
+|0.1
+|2
+| [[Elk]]
+|-
+| [[Small Pearl]]
+|Restore Stamina
+|Fortify One-Handed
+|Fortify Restoration
+|Resist Frost
+|0.1
+|2
+|[[Pearl Oyster]]‡
+|-
+| [[Snowberries]]
+|Resist Fire
+|Fortify Enchanting
+|Resist Frost
+|Resist Shock
+|0.1
+|4
+|Snowberry bush, snowy areas
+|-
+| [[Spawn Ash]]‡
+|Ravage Stamina
+|Resist Fire
+|Fortify Enchanting
+|Ravage Magicka
+|0.1
+|20
+|[[Ash Spawn]]
+|-
+| [[Spider Egg]]
+|Damage Stamina
+|Damage Magicka Regen
+|Fortify Lockpicking
+|Fortify Marksman
+|0.2
+|5
+|Spider lairs
+|-
+| [[Spriggan Sap]]
+|Damage Magicka Regen
+|Fortify Enchanting
+|Fortify Smithing
+|Fortify Alteration
+|0.2
+|15
+| [[Spriggan (Skyrim)|Spriggan]]
+|-
+| [[Swamp Fungal Pod]]
+|Resist Shock
+|Lingering Damage Magicka
+|Paralysis
+|Restore Health
+|0.3
+|5
+|Swamps
+|-
+| [[Taproot (Skyrim)|Taproot]]
+|Weakness to Magic
+|Fortify Illusion
+|Regenerate Magicka
+|Restore Magicka
+|0.5
+|15
+| [[Spriggan (Skyrim)|Spriggan]]
+|-
+| [[Thistle Branch]]
+|Resist Frost
+|Ravage Stamina
+|Resist Poison
+|Fortify Heavy Armor
+|0.1
+|1
+|Thistle Plant
+|-
+| [[Torchbug Thorax]]
+|Restore Stamina
+|Lingering Damage Magicka
+|Weakness to Magic
+|Fortify Stamina
+|0.1
+|1
+| [[Torchbugs]], glowing at night
+|-
+| [[Trama Root (Dragonborn)|Trama Root]]‡
+|Weakness to Shock
+|Fortify Carry Weight
+|Damage Magicka
+|Slow
+|0.2
+|1
+| Harvested from ashen areas of [[Solstheim]]
+|-
+| [[Troll Fat (Skyrim)|Troll Fat]]
+|Resist Poison
+|Fortify Two-handed
+|Frenzy
+|Damage Health
+|1
+|15
+| [[Trolls]]
+|-
+| [[Tundra Cotton]]
+|Resist Magic
+|Fortify Magicka
+|Fortify Block
+|Fortify Barter
+|0.1
+|1
+|High mountains below snow line, tundra
+|-
+| [[Vampire Dust (Skyrim)|Vampire Dust]]
+|Invisibility
+|Restore Magicka
+|Regenerate Health
+|Cure Disease
+|0.2
+|25
+| [[Vampire|Vampires]], the [[Silver Hand]]
+|-
+| [[Void Salts (Skyrim)|Void Salts]]
+|Weakness to Shock
+|Resist Magic
+|Damage Health
+|Fortify Magicka
+|0.2
+|125
+| [[Storm Atronach (Skyrim)|Storm Atronach]]
+|-
+| [[Wheat]]
+|Restore Health
+|Fortify Health
+|Damage Stamina Regen
+|Lingering Damage Magicka
+|0.1
+|5
+|Grows on farms, containers
+|-
+| [[White Cap]]
+|Weakness to Frost
+|Fortify Heavy Armor
+|Restore Magicka
+|Ravage Magicka
+|0.3
+|0
+|Mushroom clusters near caves or dungeons
+|-
+| [[Wisp Wrappings]]
+|Restore Stamina
+|Fortify Destruction
+|Fortify Carry Weight
+|Resist Magic
+|0.1
+|2
+|[[Wispmother (Skyrim)|Wispmother]]
+|-
+| [[Yellow Mountain Flower]]*
+|Resist Poison
+|Fortify Restoration
+|Fortify Health
+|Damage Stamina Regen
+|0.1
+|2
+|[[Darkfall Cave]]
