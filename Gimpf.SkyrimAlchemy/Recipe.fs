@@ -6,13 +6,22 @@ type Recipe = Recipe of EffectId list * Ingredient list with
         | Recipe (_, ingredients) ->
             sprintf "[ %s ]" (ingredients |> List.map (fun { IngredientId = x } -> "\"" + x.ToString() + "\"") |> String.concat " ; ")
 
-
 (* ignore incomplete matches *)
 #nowarn "25"
 module Recipes =
+    open FSharp.Collections.ParallelSeq
     open System.Collections.Generic
 
-    let getCommonEffects (ingredients : Ingredient seq) =
+    let memoize fn =
+      let cache = new System.Collections.Generic.Dictionary<_,_>()
+      (fun x ->
+        match cache.TryGetValue x with
+        | true, v -> v
+        | false, _ -> let v = fn (x)
+                      cache.Add(x,v)
+                      v)
+
+    let getCommonEffectsBase (ingredients : Ingredient list) =
         // according to the profiler, this is the single most important function;
         // and this naive implementation turned out to be quite fast already
         ingredients
@@ -22,16 +31,20 @@ module Recipes =
         |> Seq.map fst
         |> Seq.toList
 
-    let private makeRecipeOfTwo ([ ingredient1 ; ingredient2 ] as ingredients) =
-        let ingredients = ingredients |> List.sort
+    let getCommonEffects = memoize getCommonEffectsBase
+
+    let private makeRecipeOfTwoBase ([ ingredient1 ; ingredient2 ] as ingredients) =
+        assert (ingredients = (List.sort ingredients))
         let common = getCommonEffects ingredients
         if not <| Seq.isEmpty common then
             Some <| Recipe(common, ingredients)
         else
             None
 
-    let private makeRecipeOfThree ([ingredient1 ; ingredient2 ; ingredient3 ] as ingredients) =
-        let ingredients = ingredients |> List.sort
+    let private makeRecipeOfTwo = memoize makeRecipeOfTwoBase
+
+    let private makeRecipeOfThreeBase ([ingredient1 ; ingredient2 ; ingredient3 ] as ingredients) =
+        assert (ingredients = (List.sort ingredients))
         let common = getCommonEffects ingredients
         let l = getCommonEffects [ ingredient1 ; ingredient2 ]
         let r = getCommonEffects [ ingredient2 ; ingredient3 ]
@@ -40,7 +53,10 @@ module Recipes =
         else
             None
 
+    let private makeRecipeOfThree = memoize makeRecipeOfThreeBase
+
     let makeRecipe ingredients =
+        let ingredients = ingredients |> List.sort
         match ingredients |> List.length with
         | 2 -> makeRecipeOfTwo ingredients
         | 3 -> makeRecipeOfThree ingredients
@@ -48,20 +64,20 @@ module Recipes =
 
     let makeRecipeFromNotes allIngredients recipeIngredients =
         let recipeIngredients = recipeIngredients
-//                                |> List.map IngredientId
                                 |> List.map (Drugs.getIngredient allIngredients)
         makeRecipe recipeIngredients
 
     let getPossibleRecipes (ingredients : Ingredient list) =
-        let s1 = ingredients |> List.combinations 2 |> Seq.choose makeRecipeOfTwo
-        let s2 = ingredients |> List.combinations 3 |> Seq.choose makeRecipeOfThree
+        assert (ingredients.Length = (ingredients |> Seq.distinct |> Seq.length))
+        let s1 = ingredients |> List.combinations 2 |> Seq.map List.sort |> Seq.choose makeRecipeOfTwo
+        let s2 = ingredients |> List.combinations 3 |> Seq.map List.sort |> Seq.choose makeRecipeOfThree
         Seq.append s1 s2
 
     let private getBestRecipe weighting ingredients =
         let EmptyRecipe = Recipe([], [])
         let maybeBest = getPossibleRecipes ingredients
-                        |> Seq.map (fun x -> weighting x, x)
-                        |> Seq.fold (fun ((bestWeighting, bestRecipe) as best) ((weighting, recipe) as current) ->
+                        |> PSeq.map (fun x -> weighting x, x)
+                        |> PSeq.fold (fun ((bestWeighting, bestRecipe) as best) ((weighting, recipe) as current) ->
                                         if bestWeighting < weighting
                                         then current
                                         else best)
@@ -70,9 +86,9 @@ module Recipes =
 
     let private getRecipes weighting ingredients =
         getPossibleRecipes ingredients
-        |> Seq.map (fun x -> weighting x, x)
+        |> PSeq.map (fun x -> weighting x, x)
         |> Seq.where (((<) 0.0) << fst)
-        |> Seq.sortBy fst
+        |> PSeq.sortBy fst
         |> Seq.map snd
 
     let isPureRecipe drugs (Recipe(effect :: rest, ingredients)) =
