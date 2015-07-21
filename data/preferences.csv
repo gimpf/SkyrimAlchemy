@@ -20,8 +20,9 @@
 1.00 , preferEffect, Fortify Destruction
 0.50 , preferEffect, Fortify Conjuration
 0.50 , preferEffect, Fortify Alteration
-0.10 , preferEffect, Fortify Illusion
+0.05 , preferEffect, Fortify Illusion
 0.02 , preferEffect, Fortify Restoration
+1.50 , preferEffect, Fortify Enchanting
 
 0.50 , preferEffect, Fortify Light Armor
 0.10 , preferEffect, Fortify One Handed
@@ -41,16 +42,15 @@
 0.01 , preferEffect, Fortify Lickpicking
 0.01 , preferEffect, Fortify Sneak
 0.01 , preferEffect, Fortify Carry Weight
-0.01 , preferEffect, Fortify Barter
+0.10 , preferEffect, Fortify Barter
 0.01 , preferEffect, Fortify Block
-0.01 , preferEffect, Fortify Enchanting
 0.01 , preferEffect, Fortify Heavy Armor
 0.01 , preferEffect, Fortify Marksman
-0.01 , preferEffect, Fortify Smithing
+0.50 , preferEffect, Fortify Smithing
 0.01 , preferEffect, Invisibility
 
-0.10 , preferEffect, Slow
-0.10 , preferEffect, Paralysis
+0.02 , preferEffect, Slow
+0.02 , preferEffect, Paralysis
 0.02 , preferEffect, Frenzy
 0.02 , preferEffect, Fear
 
@@ -59,14 +59,14 @@
 0.01 , preferEffect, Damage Magicka Regen
 0.01 , preferEffect, Damage Stamina
 0.01 , preferEffect, Damage Stamina Regen
-0.01 , Lingering Damage Health
-0.01 , Lingering Damage Magicka
-0.01 , Lingering Damage Stamina
-0.01 , Ravage Health
-0.01 , Ravage Magicka
-0.01 , Ravage Stamina
-0.01 , Weakness to Fire
-0.01 , Weakness to Frost
-0.01 , Weakness to Magic
-0.01 , Weakness to Poison
-0.01 , Weakness to Shock
+0.01 , preferEffect, Lingering Damage Health
+0.01 , preferEffect, Lingering Damage Magicka
+0.01 , preferEffect, Lingering Damage Stamina
+0.01 , preferEffect, Ravage Health
+0.01 , preferEffect, Ravage Magicka
+0.01 , preferEffect, Ravage Stamina
+0.01 , preferEffect, Weakness to Fire
+0.01 , preferEffect, Weakness to Frost
+0.01 , preferEffect, Weakness to Magic
+0.01 , preferEffect, Weakness to Poison
+0.01 , preferEffect, Weakness to Shock
