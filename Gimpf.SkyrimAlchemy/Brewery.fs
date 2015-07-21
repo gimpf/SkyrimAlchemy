@@ -5,9 +5,12 @@ type IngredientStore = Map<Ingredient, int>
 type Brewery = { Store : IngredientStore ; Known : EffectIngredientTable }
 
 module Brew =
-    let toStore drugs list : IngredientStore =
+    let toStore drugs onUnknown list : IngredientStore =
         list
-        |> Seq.map (fun (name, count) -> (Drugs.getIngredient drugs name), count)
+        |> Seq.choose (fun (name, count) ->
+            match Drugs.tryGetIngredient drugs name with
+            | None -> onUnknown (name, count); None
+            | Some x -> Some (x, count))
         |> Map.ofSeq
 
     let private brewDrug (store : IngredientStore) (Recipe(_, ingredients)) : IngredientStore =

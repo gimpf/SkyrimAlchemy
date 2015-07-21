@@ -28,7 +28,7 @@ let showPreferedRecipes () =
     let ingredients  = FileIO.readIngredients (fromFile @"data\alchemy-ingredients.csv")
     let drugs        = Drugs.createDescription effects ingredients
     let available    = FileIO.readStoreItems  (fromFile @"data\available-ingredients.csv")
-                       |> (toStore drugs)
+                       |> (toStore drugs (printfn "Ignoring unknown ingredient: %A"))
     let knownRecipes = FileIO.readRecipeIngredientsList (fromFile @"data\known-recipes.csv")
                        |> List.choose (Recipes.makeRecipeFromNotes drugs)
     let brewery = knownRecipes |> learnAll { Store = available ; Known = Map.empty }
@@ -42,10 +42,14 @@ let showPreferedRecipes () =
     let preferredDrugs = FileIO.readPreferences (fromFile @"data\preferences.csv")
 
     let knownRecipeUpdate =
+        let inline toStr x = x.ToString()
         fun () -> generateRecipes drugs brewery preferredDrugs
                   |> Seq.groupBy snd
                   |> Seq.map (fun (recipe, entries) ->
-                                printfn "%d × %s" (Seq.length entries) (formatRecipe recipe)
+                                printfn "%3d × %s" // [%s]"
+                                    (Seq.length entries)
+                                    (formatRecipe recipe)
+                                    //(entries |> Seq.map (fst >> toStr) |> String.concat ",")
                                 recipe)
                   |> Seq.toList
         |> time

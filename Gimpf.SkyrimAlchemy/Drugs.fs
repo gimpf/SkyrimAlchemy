@@ -14,6 +14,9 @@ module Drugs =
     let getIngredient { Effects = _ ; Ingredients = ingredients } name =
         Map.find name ingredients
 
+    let tryGetIngredient { Effects = _ ; Ingredients = ingredients } name =
+        Map.tryFind name ingredients
+
     let createTable effects ingredients : EffectIngredientTable =
         effects
         |> Seq.map (fun e ->
