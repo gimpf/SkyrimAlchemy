@@ -13,13 +13,8 @@ module Recipes =
     open System.Collections.Generic
 
     let memoize fn =
-      let cache = new System.Collections.Generic.Dictionary<_,_>()
-      (fun x ->
-        match cache.TryGetValue x with
-        | true, v -> v
-        | false, _ -> let v = fn (x)
-                      cache.Add(x,v)
-                      v)
+      let cache = new System.Collections.Concurrent.ConcurrentDictionary<_,_>()
+      fun x -> cache.GetOrAdd(key= x, valueFactory= fun k -> fn k)
 
     let getCommonEffectsBase (ingredients : Ingredient list) =
         // according to the profiler, this is the single most important function;
@@ -67,14 +62,17 @@ module Recipes =
                                 |> List.map (Drugs.getIngredient allIngredients)
         makeRecipe recipeIngredients
 
-    let getPossibleRecipes (ingredients : Ingredient list) =
+    let private getPossibleRecipesBase (ingredients : Ingredient list) =
         assert (ingredients.Length = (ingredients |> Seq.distinct |> Seq.length))
         let s1 = ingredients |> List.combinations 2 |> Seq.map List.sort |> Seq.choose makeRecipeOfTwo
         let s2 = ingredients |> List.combinations 3 |> Seq.map List.sort |> Seq.choose makeRecipeOfThree
-        Seq.append s1 s2
+        Seq.append s1 s2 |> Seq.toArray
+
+    let getPossibleRecipes = memoize getPossibleRecipesBase
+    
+    let private EmptyRecipe = Recipe([], [])
 
     let private getBestRecipe weighting ingredients =
-        let EmptyRecipe = Recipe([], [])
         let maybeBest = getPossibleRecipes ingredients
                         |> PSeq.map (fun x -> weighting x, x)
                         |> PSeq.fold (fun ((bestWeighting, bestRecipe) as best) ((weighting, recipe) as current) ->
@@ -87,9 +85,9 @@ module Recipes =
     let private getRecipes weighting ingredients =
         getPossibleRecipes ingredients
         |> PSeq.map (fun x -> weighting x, x)
-        |> Seq.where (((<) 0.0) << fst)
+        |> PSeq.filter (((<) 0.0) << fst)
         |> PSeq.sortBy fst
-        |> Seq.map snd
+        |> PSeq.map snd
 
     let isPureRecipe drugs (Recipe(effect :: rest, ingredients)) =
         let { Disposition = preferedDis } = Drugs.getEffect drugs effect
