@@ -42,8 +42,10 @@ module Recipes =
         assert (ingredients = (List.sort ingredients))
         let common = getCommonEffects ingredients
         let l = getCommonEffects [ ingredient1 ; ingredient2 ]
-        let r = getCommonEffects [ ingredient2 ; ingredient3 ]
-        if not <| Seq.isEmpty common && l <> common && r <> common then
+        let m = getCommonEffects [ ingredient2 ; ingredient3 ]
+        let r = getCommonEffects [ ingredient1 ; ingredient3 ]
+        if (not <| Seq.isEmpty common) && l <> common && m <> common && r <> common then
+            assert ((l |> Seq.append m |> Seq.append r |> Seq.distinct |> Seq.length) > 1)
             Some <| Recipe(common, ingredients)
         else
             None
